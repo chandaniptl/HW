@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 60px;
+    color: #c78b36;
+    margin-bottom: 20px;
+  }
+
+  p {
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+
+  .rooms {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .room img {
+    width: 150%;
+    height: 330px;
+    object-fit: cover;
+  }
+
+  .room h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .room p {
+    font-size: 16px;
+    color:#c78b36;
+  }
